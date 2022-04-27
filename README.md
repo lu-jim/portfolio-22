@@ -20,8 +20,8 @@ To get a local copy up and running follow these simple steps.
 ### Install
 - Open your console and change the current working directory into the destination for this project.
 - Type `git clone`, and then paste the URL copied in the Setup section.
-- Type Enter and then enter `cd rbudget` to enter into the project directory.
-- Run `bundler install` to install the required dependencies
+- Type Enter and then enter `cd portfolio-22` to enter into the project directory.
+- Run `bundle` to install the required dependencies
 - Run `rails db:create` and `rails db:migrate` to run the proper migrations and generate the app schema
 
 ## Run
