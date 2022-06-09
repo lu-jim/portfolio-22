@@ -11,6 +11,13 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        'lublu': '#032193',
+        'lubg': '#dedde2',
+        'luora': '#ff9b11',
+        'luneu': '#a5a4ba',
+        'lual': '#cc3d53',
+      },
     },
   },
   plugins: [

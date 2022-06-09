@@ -6,13 +6,14 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
-
+    <script src="https://kit.fontawesome.com/8aa4f4e3a3.js" crossorigin="anonymous"></script>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-    <main class="container mx-auto mt-28 px-5 flex flex-col">
+    <main class="h-screen">
+      <%= render "shared/header" %>
       <%= yield %>
     </main>
   </body>
